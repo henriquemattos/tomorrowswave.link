@@ -6,7 +6,7 @@
   "scripts": {
     "prestart": "npm run build",
     "start": "http-server -o dist/index.html",
-    "build": "mkdir -p dist && cp -rf css dist/ && cp -rf webfonts dist/ && cp -rf index.html dist/ && cp -rf img dist/",
+    "build": "rm -rf dist && mkdir -p dist && cp -rf css dist/ && cp -rf webfonts dist/ && cp -rf index.html dist/ && cp -rf img dist/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
