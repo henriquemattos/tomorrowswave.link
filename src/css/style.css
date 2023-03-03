@@ -12,3 +12,7 @@
     background: url("../img/bg-banner-ripple.jpeg") no-repeat center center;
     background-size: cover;
 }
+
+#hero .hero-body .message {
+    background-color: rgba(245, 245, 245, .6);
+}
