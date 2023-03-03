@@ -1,0 +1,14 @@
+.button.is-info {
+    background-color: #8341F3;
+}
+
+.navbar-item, .navbar-link,
+.navbar-link.is-active, a.navbar-item.is-active,
+.button.is-info.is-inverted {
+    color: #8341F3;
+}
+
+#hero.hero {
+    background: url("../img/bg-banner-ripple.jpeg") no-repeat center center;
+    background-size: cover;
+}
